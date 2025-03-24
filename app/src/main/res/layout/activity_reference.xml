@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#104F9B"
+    android:background="#5856d6"
+    android:orientation="vertical"
+    tools:context=".ReferenceActivity">>
+
+    <!-- Title Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TVresult"
+        android:text="Enter Your Reference Details"
+        android:textColor="#008000"
+        android:layout_marginHorizontal="20dp"/>
+
+    <!-- Name Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/white"
+        app:boxBackgroundMode="outline"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingVertical="2dp"
+            android:id="@+id/ETname"
+            android:hint="Enter Name"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Contact Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/white"
+        app:boxBackgroundMode="outline"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingVertical="2dp"
+            android:id="@+id/ETcontact"
+            android:hint="Enter Contact"
+            android:inputType="phone"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Relation Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/white"
+        app:boxBackgroundMode="outline"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingVertical="2dp"
+            android:id="@+id/ETrelation"
+            android:hint="Enter Relation"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Add Button Fragment -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Addbtn"/>
+
+    <!-- Spacer View -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginHorizontal="120dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/Save"
+            />
+        <Button
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/Cancel"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="#104F9B"
+    android:background="#5856d6"
+    android:padding="20dp"
+    tools:context=".EducationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TVresult"
+        android:text="Degrees are"
+        android:textColor="#008000"
+        android:layout_marginHorizontal="20dp"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/white"
+        app:boxBackgroundMode="outline"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingVertical="2dp"
+            android:id="@+id/ETdegree_name"
+            android:hint="Enter Degree"
+            android:inputType="text"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/white"
+        app:boxBackgroundMode="outline"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingVertical="2dp"
+            android:id="@+id/ETinstitution"
+            android:hint="Enter Institution"
+            android:inputType="text"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/white"
+        app:boxBackgroundMode="outline"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingVertical="2dp"
+            android:id="@+id/ETstart_date"
+            android:hint="Start Date"
+            android:focusable="false"
+            android:clickable="true"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/white"
+        app:boxBackgroundMode="outline"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingVertical="2dp"
+            android:id="@+id/ETend_date"
+            android:hint="End Date"
+            android:focusable="false"
+            android:clickable="true"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:boxStrokeColor="@color/white"
+            app:boxBackgroundMode="outline"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            app:boxCornerRadiusTopEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusBottomStart="15dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingVertical="2dp"
+                android:id="@+id/ETtotalmarks"
+                android:hint="Total Marks"
+                android:inputType="number"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:boxStrokeColor="@color/white"
+            app:boxBackgroundMode="outline"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            app:boxCornerRadiusTopEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusBottomStart="15dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingVertical="2dp"
+                android:id="@+id/ETobtainedmarks"
+                android:hint="Obtained Marks"
+                android:inputType="number"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Addbtn"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginHorizontal="120dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/Save"
+            />
+        <Button
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/Cancel"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
